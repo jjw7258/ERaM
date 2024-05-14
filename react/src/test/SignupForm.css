@@ -1,0 +1,44 @@
+.signup-form {
+  max-width: 1000px; /* 가로폭을 1000px로 늘립니다. */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333; /* 라벨의 텍스트 색상을 진한 회색(#333)으로 지정합니다. */
+  font-family: Arial, sans-serif; /* 폰트를 Arial로 설정합니다. */
+  font-size: 16px; /* 라벨의 폰트 크기를 16px로 지정합니다. */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #c8c8c8;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #c0c0c0;
+}
